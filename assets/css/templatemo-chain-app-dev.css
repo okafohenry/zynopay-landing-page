@@ -187,7 +187,7 @@ body {
 
 .section-heading h4 em {
   font-style: normal;
-  color: #1F28CF;
+  color: #ce4dee;
 }
 
 .section-heading img {
@@ -207,7 +207,7 @@ body {
 .white-button a {
   display: inline-block !important;
   padding: 10px 20px !important;
-  color: #1F28CF !important;
+  color: #8928a2 !important;
   text-transform: capitalize;
   font-size: 15px;
   background-color: #fff;
@@ -223,7 +223,7 @@ body {
 }
 
 .white-button a:hover {
-  background-color: #1F28CF;
+  background-color: #8928a2;
   color: #fff !important;
 }
 
@@ -264,8 +264,8 @@ body {
 .border-button a {
   display: inline-block !important;
   padding: 10px 20px !important;
-  color: #1F28CF !important;
-  border: 1px solid #1F28CF;
+  color: #8928a2 !important;
+  border: 1px solid #8928a2;
   text-transform: capitalize;
   font-size: 15px;
   display: inline-block;
@@ -277,7 +277,7 @@ body {
 }
 
 .border-button a:hover {
-  background-color: #1F28CF;
+  background-color: #8a28a2cd;
   /* color: #fff !important; */
 }
 
@@ -305,7 +305,7 @@ header
 }
 
 .background-header .main-nav .nav li:hover a {
-  color: #1F28CF;
+  color: #ce4dee;
 }
 
 .background-header .nav li a.active {
@@ -317,7 +317,7 @@ header
   position: absolute;
   width: 100%;
   height: 1px;
-  background-color: #1F28CF;
+  background-color: #8928a2;
   content: '';
   left: 50%;
   bottom: -20px;
@@ -428,7 +428,7 @@ header
 
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
-  color: #1F28CF!important;
+  color: #ce4dee !important;
 }
 
 /* .header-area .main-nav .nav li:last-child a.active {
@@ -437,7 +437,7 @@ header
 
 .background-header .main-nav .nav li:hover a,
 .background-header .main-nav .nav li a.active {
-  color: #1F28CF!important;
+  color: #ce4dee !important;
   opacity: 1;
 }
 
@@ -499,7 +499,7 @@ header
 
 .header-area .main-nav .nav li.submenu ul li a:hover {
   background: #fff;
-  color: #1F28CF!important;
+  color: #ce4dee !important;
   padding-left: 25px;
 }
 
@@ -639,7 +639,7 @@ header
 }
 
 .header-area.header-sticky .nav li a.active {
-  color: #1F28CF;
+  color: #ce4dee;
 }
 
 @media (max-width: 1200px) {
@@ -679,7 +679,7 @@ header
   }
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
-    color: #1F28CF!important;
+    color: #ce4dee!important;
     opacity: 1;
   }
   .header-area.header-sticky .nav li.search-icon a {
@@ -741,7 +741,7 @@ header
   }
   .header-area .main-nav .nav li a:hover {
     background: #eee !important;
-    color: #1F28CF !important;
+    color: #ce4dee !important;
   }
   .header-area .main-nav .nav li.submenu ul {
     position: relative;
@@ -855,7 +855,7 @@ preloader
     height: 16px;
     top: 12px;
     left: 15px;
-    background: #1F28CF;
+    background: #ce4dee;
     border-radius: 50%;
     -webkit-transform: translateX(0);
     transform: translateX(0);
@@ -878,7 +878,7 @@ preloader
     width: 16px;
     height: 16px;
     margin-left: 16px;
-    background: #1F28CF;
+    background: #8928a2;
     border-radius: 50%;
 }
 
@@ -923,12 +923,14 @@ Banner Style
   line-height: 70px;
   font-size: 50px;
   margin-bottom: 20px;
+  color: white;
 }
 
 .main-banner .left-content p {
   margin-bottom: 45px;
   color: #2a2a2a;
   font-weight: 400;
+  color: white;
 }
 
 .main-banner .left-content .first-button {
@@ -950,7 +952,8 @@ Banner Style
 }
 
 .main-banner .left-content .white-button a {
-  background-color: #1F28CF;
+  background-color: #ce4dee;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; 
   color: #fff !important;
 }
 
@@ -1135,7 +1138,7 @@ About Us
 }
 
 .about-us .box-item:hover h4 a {
-  color: #1F28CF;
+  color: #ce4dee;
 }
 
 .about-us .gradient-button {
@@ -1267,7 +1270,7 @@ The Clients
 .the-clients .naccs .menu div.active i,
 .the-clients .naccs .menu div.active span.rating,
 .the-clients .naccs .menu div.active .thumb {
-  color: #1F28CF;
+  color: #ce4dee;
 }
 
 .the-clients ul.nacc {
@@ -1426,7 +1429,7 @@ The Clients
 }
 
 .pricing-item-regular ul li {
-  color: #1F28CF;
+  color: #ce4dee;
   font-size: 15px;
   margin-bottom: 15px;
 }
@@ -1503,7 +1506,7 @@ The Clients
 }
 
 .pricing-item-pro ul li {
-  color: #1F28CF;
+  color: #ce4dee;
   font-size: 15px;
   margin-bottom: 15px;
 }
@@ -1659,7 +1662,7 @@ footer #search button {
 
 footer #search button:hover {
   background-color: #fff;
-  color: #1F28CF;
+  color: #ce4dee;
 }
 
 .footer-widget .logo img {
@@ -1929,7 +1932,7 @@ a.btn_red {
   clear: both;
   overflow: hidden;
   text-decoration: none;
-  color: #1F28CF;
+  color: #ce4dee;
   transition: all .3s;
 }
 /* User Register Form */
@@ -2024,7 +2027,7 @@ responsive
     margin-right: 0;
   }
   .main-banner .left-content .white-button a {
-    background-color: #1F28CF;
+    background-color: #ce4dee;
     color: #fff !important;
   }
   form#contact {
@@ -2150,7 +2153,7 @@ responsive
   }
   footer #search button {
     background-color: #fff;
-    color: #1F28CF;
+    color: #ce4dee;
   }
   footer #search input::placeholder { 
     color: #2a2a2a;
