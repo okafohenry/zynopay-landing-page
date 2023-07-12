@@ -1,4 +1,5 @@
 <?php
+    if(isset($_POST['email'])){
     
     $errorMessages = '';
     // $phone = filter_var($_POST['phone'], FILTER_SANITIZE_NUMBER_INT);
@@ -90,18 +91,19 @@
         $headers .= 'From: <hello@zynopay.com>' . "\r\n";
 
         mail($to,$subject,$message,$headers); 
-    }       
+          
 
-    //     $_SESSION['email']= $email;
-    //     header('location: statuspage.php');
-    // }
-    // else
-    // {
-    //     $_SESSION['errorMessages']= $errorMessages;        
-    //     header('location: errorpage.php');
-    // }
+        $_SESSION['email']= $email;
+        header('location: statuspage.php');
+        }
+        else
+        {
+            $_SESSION['errorMessages']= $errorMessages;        
+            header('location: errorpage.php');
+        }
      
 
     // service id: service_4jpw6qc 
+    }
 
  ?> 
