@@ -26,7 +26,7 @@
 	.we-are-in-office-20{fill:#2026A2;}
 	.we-are-in-office-21{fill:#1F28CF;}
 	.we-are-in-office-22{fill:#2B44FF;}
-	.we-are-in-office-23{opacity:0.2;}
+	.we-are-in-office-23{opacity:0.2;} 
 </style>
 <g id="Clock" transform="translate(720.86 101.585)">
 	<circle id="Clock_Frame" class="we-are-in-office-0" cx="229.8" cy="-46" r="53"/>
