@@ -135,6 +135,7 @@ img {
   overflow: hidden;
 }
 
+
 /* 
 ---------------------------------------------
 global styles
@@ -170,6 +171,9 @@ body {
   .mobile-bottom-fix-big {
     margin-bottom: 60px;
   }
+}
+.countries-mobile {
+
 }
 
 .section-heading {
@@ -774,11 +778,22 @@ header
   .header-area .main-nav .nav li.submenu:hover ul, .header-area .main-nav .nav li.submenu:focus ul {
     height: 0px;
   }
+
+  .countries-mobile {
+    display: block;
+    margin-top: 2.1rem;
+  }
+  .countries-web {
+    display: none;
+  }
 }
 
 @media (min-width: 767px) {
   .header-area .main-nav .nav {
     display: flex !important;
+  }
+  .countries-mobile {
+    display: none;
   }
 }
 
