@@ -795,6 +795,11 @@ header
   .countries-mobile {
     display: none;
   }
+  .second-image{
+    position: absolute;
+    right: 30px;
+    margin-top: -25rem;
+  }
 }
 
 /* 
